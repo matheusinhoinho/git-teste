@@ -1,19 +1,21 @@
 {
-  "name": "git-teste",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matheusinhoinho/git-teste.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/matheusinhoinho/git-teste/issues"
-  },
-  "homepage": "https://github.com/matheusinhoinho/git-teste#readme"
-}
+ "name": "git-teste",
+ "version": "1.0.0",
+ "description": "Este é o projeto Git e Node básico",
+ "main": "index.html",
+ "scripts": {
+ "start": "npm run lite",
+ "test": "echo \"Error: no test specified\" && exit 1",
+ "lite": "lite-server"
+ },
+ "repository": {
+ "type": "git",
+ "url": "link do seu repositório"
+ },
+ "author": "Seu nome",
+ "license": "ISC",
+ "homepage": "link do seu repositório",
+ "devDependencies": {
+ "lite-server": "^2.5.4"
+ }
+} 
